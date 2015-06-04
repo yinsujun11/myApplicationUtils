@@ -21,16 +21,19 @@
         android:label="@string/app_name"
         android:theme="@style/AppBaseTheme" >
         <activity
-            android:name=".MainActivity"
+            android:name="com.myapp.activity.WelocomeActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="@string/app_name"
-            android:theme="@style/FullscreenTheme" >
+            android:theme="@style/FullscreenTheme"
+            android:screenOrientation="portrait" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name="com.myapp.activity.MainActivity" android:screenOrientation="portrait"></activity>
+        <activity android:name="com.myapp.activity.ResultActivity" android:screenOrientation="portrait"></activity>
     </application>
 
 </manifest>
