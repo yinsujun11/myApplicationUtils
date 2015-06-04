@@ -13,7 +13,6 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 
-import com.myapp.base.AppManager;
 import com.myapp.http.AbHttpUtil;
 import com.myapp.http.AbRequestParams;
 import com.myapp.http.AbStringHttpResponseListener;
