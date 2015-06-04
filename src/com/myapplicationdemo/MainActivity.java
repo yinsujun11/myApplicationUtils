@@ -103,6 +103,7 @@ public class MainActivity extends Activity {
 							Throwable error) {
 		            	Log.e(TAG, statusCode+content);
 		            	Toast.makeText(MainActivity.this, error.getMessage(), Toast.LENGTH_SHORT).show();;
+		            	onRetry();
 					}
 
 					// 完成后调用，失败，成功
@@ -114,7 +115,6 @@ public class MainActivity extends Activity {
 		        });
 			}
 		});
-		
 		
 		// Set up an instance of SystemUiHider to control the system UI for
 		// this activity.
