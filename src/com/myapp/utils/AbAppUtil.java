@@ -20,6 +20,7 @@ import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.telephony.TelephonyManager;
 import android.util.Log;
+import android.widget.Toast;
 
 public class AbAppUtil {
 	/** 
@@ -253,5 +254,16 @@ public class AbAppUtil {
 		}
 		return flag;
 	}
-
+	private static Toast TOAST = null;
+	public static void showTextToast(Context context,String msg) {
+		if(msg==null){
+			return;
+		}
+		if (TOAST == null) {
+			TOAST = Toast.makeText(context, msg, Toast.LENGTH_SHORT);
+		} else {
+			TOAST.setText(msg);
+		}
+		TOAST.show();
+	}
 }
