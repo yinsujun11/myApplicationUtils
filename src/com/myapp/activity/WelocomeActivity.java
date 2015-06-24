@@ -17,7 +17,7 @@ public class WelocomeActivity extends BaseActivity{
 		setContentView(R.layout.welocome);
 		share=WelocomeActivity.this.getSharedPreferences("isStart", Activity.MODE_PRIVATE);
 		if(share.getInt("start", 0)==1){
-			startActivity(new Intent(WelocomeActivity.this,MainActivity.class));
+			startActivity(new Intent(WelocomeActivity.this,MyViewpagerTest.class));
 			WelocomeActivity.this.finish();
 		}else{
 			new Handler().postDelayed(new Runnable() {

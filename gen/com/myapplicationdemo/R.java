@@ -2340,8 +2340,12 @@ containing a value of this type.
         public static final int abc_textfield_search_activated_mtrl_alpha=0x7f020038;
         public static final int abc_textfield_search_default_mtrl_alpha=0x7f020039;
         public static final int abc_textfield_search_material=0x7f02003a;
-        public static final int ic_launcher=0x7f02003b;
-        public static final int welocome=0x7f02003c;
+        public static final int circle_hecked=0x7f02003b;
+        public static final int circle_unhecked=0x7f02003c;
+        public static final int ic_launcher=0x7f02003d;
+        public static final int img_url_for_user_login=0x7f02003e;
+        public static final int index_redpacket_for_friends=0x7f02003f;
+        public static final int welocome=0x7f020040;
     }
     public static final class id {
         public static final int action_bar=0x7f090040;
@@ -2425,6 +2429,9 @@ containing a value of this type.
         public static final int topPanel=0x7f09002e;
         public static final int up=0x7f090001;
         public static final int useLogo=0x7f090013;
+        public static final int viewGroup=0x7f090054;
+        public static final int viewPager=0x7f090053;
+        public static final int viewpager_rating=0x7f090055;
         public static final int withText=0x7f09001d;
         public static final int wrap_content=0x7f090009;
     }
@@ -2489,7 +2496,8 @@ containing a value of this type.
         public static final int select_dialog_multichoice_material=0x7f03001c;
         public static final int select_dialog_singlechoice_material=0x7f03001d;
         public static final int support_simple_spinner_dropdown_item=0x7f03001e;
-        public static final int welocome=0x7f03001f;
+        public static final int viewpager_test=0x7f03001f;
+        public static final int welocome=0x7f030020;
     }
     public static final class string {
         /**  Content description for the action bar "home" affordance. [CHAR LIMIT=NONE] 
