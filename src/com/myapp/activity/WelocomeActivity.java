@@ -14,22 +14,22 @@ public class WelocomeActivity extends BaseActivity{
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.welocome);
+		setContentView(R.layout.aty_login_main);
 		share=WelocomeActivity.this.getSharedPreferences("isStart", Activity.MODE_PRIVATE);
-		if(share.getInt("start", 0)==1){
-			startActivity(new Intent(WelocomeActivity.this,MyViewpagerTest.class));
-			WelocomeActivity.this.finish();
-		}else{
-			new Handler().postDelayed(new Runnable() {
-				
-				@Override
-				public void run() {
-					share.edit().putInt("start", 1).commit();
-					startActivity(new Intent(WelocomeActivity.this,MainActivity.class));
-					WelocomeActivity.this.finish();
-				}
-			}, 3000);
-		}
+//		if(share.getInt("start", 0)==1){
+//			startActivity(new Intent(WelocomeActivity.this,Test9Activity.class));
+//			WelocomeActivity.this.finish();
+//		}else{
+//			new Handler().postDelayed(new Runnable() {
+//				
+//				@Override
+//				public void run() {
+//					share.edit().putInt("start", 1).commit();
+//					startActivity(new Intent(WelocomeActivity.this,MainActivity.class));
+//					WelocomeActivity.this.finish();
+//				}
+//			}, 3000);
+//		}
 	}
 	@Override
 	public void initView() {

@@ -9,6 +9,7 @@ public abstract class BaseActivity extends FragmentActivity{
 	@Override
 	protected void onCreate(Bundle arg0) {
 		super.onCreate(arg0);
+		initView();
 		AppManager.getAppManager().addActivity(this);
 //		initView();
 	}

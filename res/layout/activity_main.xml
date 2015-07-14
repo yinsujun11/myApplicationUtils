@@ -46,8 +46,10 @@
                 android:id="@+id/dummy_button"
                 style="?metaButtonBarButtonStyle"
                 android:layout_width="0dp"
-                android:layout_height="wrap_content"
+                android:layout_height="50dp"
                 android:layout_weight="1"
+                android:background="#ff00ff"
+                  android:textColor="@color/yellow"
                 android:text="@string/dummy_button" />
         </LinearLayout>
     </FrameLayout>

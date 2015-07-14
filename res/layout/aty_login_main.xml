@@ -1,0 +1,67 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:layout_gravity="center"
+    android:orientation="vertical" >
+     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:background="#ffffff" >
+
+        <LinearLayout
+            android:id="@+id/login_layout"
+            android:layout_width="0dp"
+                android:layout_weight="1"
+            android:layout_height="wrap_content"
+             >
+            <ImageView
+                android:id="@+id/iv_login_normal"
+                android:layout_width="match_parent"
+                android:scaleType="centerCrop"
+                android:layout_height="wrap_content"
+                android:src="@drawable/login" />
+        </LinearLayout>
+       
+        	  <LinearLayout
+            android:id="@+id/register_layout"
+              android:layout_width="0dp"
+                android:layout_weight="1"
+            android:layout_height="wrap_content"
+             >
+             <ImageView
+                android:id="@+id/iv_register_normal"
+               android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="centerCrop"
+                android:src="@drawable/register_normal" />
+        </LinearLayout>
+        
+        </LinearLayout>
+    
+    
+<!--     <FrameLayout
+        android:id="@+id/login_content"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" 
+        android:layout_marginTop="10dp">
+        	  
+        <TextView 
+            android:layout_width="100dp"
+            android:layout_height="55dp"
+            android:background="@drawable/circle"
+            />
+        
+    </FrameLayout> -->
+    
+         <ImageView 
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/tc_03"
+            />
+    
+
+</LinearLayout>
