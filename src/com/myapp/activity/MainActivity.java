@@ -155,7 +155,8 @@ public class MainActivity extends Activity {
 			 long currentTime = System.currentTimeMillis();
 	            if ((currentTime - touchTime) >= waitTime) {
 	                touchTime = currentTime;
-	                AbAppUtil.showTextToast(this, "再按一次退出");
+//	                AbAppUtil.showTextToast(this, "再按一次退出");
+	                Toast.makeText(MainActivity.this, "在按一次退出", Toast.LENGTH_SHORT).show();
 	            } else {
 	                //第二次退出应用程序
 //	               AppManager.getAppManager().AppExit(this);
